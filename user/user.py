@@ -2,9 +2,8 @@ from abc import abstractmethod
 
 
 class User:
-    def __init__(self, username, premium_status):
+    def __init__(self, username):
         self.username = username
-        self.premium = premium_status
         self.playlists = {}
 
     @abstractmethod

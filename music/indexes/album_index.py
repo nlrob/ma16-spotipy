@@ -1,4 +1,4 @@
-from music.music_exceptions import AlbumAlreadyExistsException
+from music.exceptions.music_exceptions import AlbumAlreadyExistsException
 
 
 class AlbumIndex:

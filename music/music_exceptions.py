@@ -1,0 +1,2 @@
+class AlbumAlreadyExistsException(Exception):
+    pass

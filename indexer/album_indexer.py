@@ -8,7 +8,7 @@ class AlbumIndexer:
         album_index = AlbumIndex()
         for track in track_index.tracks.keys():
             new_album = Album(track_index.tracks[track].album['id'],track_index.tracks[track].album['name'],
-                              track_index.tracks[track].artists[0]['id'])
+                              track_index.tracks[track].artists[0]['id'], track_index.tracks[track].artists[0]['name'])
             try:
                 album_index.add_album(new_album)
             except AlbumAlreadyExistsException:

@@ -2,10 +2,11 @@ from music.exceptions.music_exceptions import TrackAlreadyExistsException
 
 
 class Album:
-    def __init__(self, album_id, name, artist_id):
+    def __init__(self, album_id, name, artist_id, artist_name):
         self.album_id = album_id
         self.name = name
         self.artist_id = artist_id
+        self.artist_name = artist_name
         self.tracks = {}
 
     def add_track_to_album(self, track):

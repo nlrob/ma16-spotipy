@@ -1,0 +1,3 @@
+from indexer.album_indexer import AlbumIndexer
+from indexer.track_indexer import TrackIndexer
+from indexer.artist_indexer import ArtistIndexer
